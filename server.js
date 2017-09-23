@@ -7,6 +7,6 @@ app.use(async (ctx, next) => {
     ctx.response.body = '<h1>开源说网站正在建设中...</h1>'
 })
 
-app.listen(80)
+app.listen(3000)
 
-console.log('app started at port 80...')
+console.log('app started at port 3000...')

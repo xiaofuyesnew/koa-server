@@ -1,8 +1,6 @@
 const mongoose = require('mongoose')
-const dbInfo = require('./config').dbInfo
+const dbInfo = 'mongodb://myblog:faye520@xiaofuyesnew.com/myblog'
 
-
-console.log(dbInfo)
 /**/
 const myDb = mongoose.createConnection(dbInfo, {
     useMongoClient: true

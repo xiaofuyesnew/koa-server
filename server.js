@@ -1,5 +1,5 @@
-const path = require('path')
-const Koa = require('koa')
+const path = require('path')  //处理工程文件目录--node
+const Koa = require('koa')    
 const bodyParser = require('koa-bodyparser')
 const controller = require('./controller')
 const cors = require('koa-cors')
